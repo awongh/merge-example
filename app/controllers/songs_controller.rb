@@ -1,6 +1,7 @@
 class SongsController < ApplicationController
   def index
-    render plain: "hello"
+    total = 4 + 8
+    render plain: "hello #{total} bananas"
   end
 
   def show
