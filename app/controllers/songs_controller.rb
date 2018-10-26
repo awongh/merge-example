@@ -3,4 +3,8 @@ class SongsController < ApplicationController
     render plain: "hello APPLE"
   end
 
+  def edit
+    render plain: "gonna EDIT some stuff"
+  end
+
 end
