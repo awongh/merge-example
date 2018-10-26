@@ -3,4 +3,8 @@ class SongsController < ApplicationController
     render plain: "hello"
   end
 
+  def show
+    render plain: "show routes!!!"
+  end
+
 end
